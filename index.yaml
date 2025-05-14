@@ -1,0 +1,37 @@
+apiVersion: v1
+entries:
+  outline:
+  - apiVersion: v2
+    appVersion: 0.82.0
+    created: "2025-05-14T07:44:30.187828851Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.5.8
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.11.2
+    - condition: minio.enabled
+      name: minio
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.0.5
+    description: A Helm chart for Outline Wiki
+    digest: 5cbb019ca51e1075f0f8c490eccdc07c45318d41b230a69a7f5a0ff702fcbc69
+    home: https://github.com/outline/outline
+    keywords:
+    - knowledge-base
+    - wiki
+    - documentation
+    - collaboration
+    maintainers:
+    - name: Outline Team
+    name: outline
+    sources:
+    - https://github.com/outline/outline
+    type: application
+    urls:
+    - https://github.com/InspectHOA/outline-helm-charts/releases/download/outline-0.0.9/outline-0.0.9.tgz
+    version: 0.0.9
+generated: "2025-05-14T07:44:30.187837858Z"
